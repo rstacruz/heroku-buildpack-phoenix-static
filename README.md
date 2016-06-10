@@ -18,10 +18,10 @@ This buildpack is meant to be used with the [Heroku Buildpack for Elixir](https:
 
 ```bash
 # Set the buildpack for your Heroku app
-heroku buildpacks:set https://github.com/gjaldon/phoenix-static-buildpack
+heroku buildpacks:set https://github.com/gjaldon/phoenix-static-buildpack.git
 
 # Add this buildpack after the Elixir buildpack
-heroku buildpacks:add --index 1 https://github.com/HashNuke/heroku-buildpack-elixir
+heroku buildpacks:add --index 1 https://github.com/HashNuke/heroku-buildpack-elixir.git
 ```
 
 ## Configuration
